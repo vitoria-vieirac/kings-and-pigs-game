@@ -1,7 +1,7 @@
 window.addEventListener("keydown", (event) => {
   switch (event.key) {
     case "w":
-      if (player.velocity.y === 0) player.velocity.y = -20;
+      if (player.velocity.y === 0) player.velocity.y = -25;
 
       break;
 
@@ -20,7 +20,7 @@ window.addEventListener("keydown", (event) => {
 window.addEventListener("keyup", (event) => {
   switch (event.key) {
     case "a":
-      keys.d.pressed = false;
+      keys.a.pressed = false;
 
       break;
 
